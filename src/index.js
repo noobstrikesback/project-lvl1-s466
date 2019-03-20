@@ -6,7 +6,7 @@ let number = 0;
 let userAnswer = '';
 let userName = '';
 
-export default () => {
+export const greetUserByName = () => {
   userName = readlineSync.question('May I have your name? ');
 
   console.log(`Hello, ${userName}!`);
